@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Set up Resources
 - Install Active Directory
-- Step 3
+- Set up Domain Controller
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -81,34 +81,45 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+- Line
+
 <p>
+<br/>
 
 Image
 
 </p>
+<br/>
 
 - Line
+- 
 <p>
 <br/>
+
+Image
 
 <p>
 <br/>
   
-  Image
+  - Line
   
 </p>
-  
-- Line
+<br/>
+
+Image
 
 </p>
 <br />
 
+- Line
+  
 <p>
-
+<br/>
+  
 Image
 
-</p>
 <p>
+<br/>
   
 - Line
   
