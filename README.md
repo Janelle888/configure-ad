@@ -19,33 +19,100 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
+- Set up Resources
+- Install Active Directory
 - Step 3
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Set up your Domain Controller Virtual Machine, then set up Windows 10 Virtual Machine. Make sure that both resources are in the same virtual network and resource group.
+  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/59a9e88a-b420-4199-9f4e-26434f267597)
+
 </p>
+
+- We then have to go to our Domain Controller change the Nic Private IP address from Dynamic to Static
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<br/>
+  
+- Log into the Domain Controller so that we can open a hole in its fire wall, enable ICMPv4 which will allow us to ping this VM from the other one. Also enable IMCP Echo Request.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/45a8a466-36f1-4f44-8161-4a38ab604e6e)
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/ae61dfb3-0002-4724-bbaa-4dfca71cabb9)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<br/>
+  
+- Next we are going to our Windows 10 VM to set up Active Directiory, go to Add Roles and Features and install Acitve Directory.
+  
 </p>
 <br />
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/37aee064-d06b-475a-96be-21d0e3e8d4ef)
+
+<p>
+<br/>
+
+- Turn your server into a Domain Server and create the Domain name.
+<p>
+<br/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/f292524d-f6e7-4b65-a290-f6a7e13a1d5a)
+
+  
+</p>
+<br />
+
+<p>
+
+Image
+
+</p>
+
+- Line
+<p>
+<br/>
+
+<p>
+<br/>
+  
+  Image
+  
+</p>
+  
+- Line
+
+</p>
+<br />
+
+<p>
+
+Image
+
+</p>
+<p>
+  
+- Line
+  
+</p>
+<br />
+
+Image
