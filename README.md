@@ -81,12 +81,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
-- Line
+- In Active Directory Users and Computers create 2 new organizational units called  “_EMPLOYEES” and “_ADMINS”.
 
 <p>
 <br/>
 
-Image
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/f312ceb0-7e6a-41a4-b04b-2cfe9cbad7ec)
+
 
 </p>
 <br/>
