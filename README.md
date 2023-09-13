@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Set up Resources
 - Install Active Directory
 - Set up Domain Controller
-- Step 4
+- Join Windows 10 Virtual Machine to Domain Controller 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -92,10 +92,42 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br/>
 
-- Line
-- 
+- Set Domain Controller as your DNS Server so that you can control the domain controller from the Windows 10 VM. Go to the azure portal and find the domain controller's private IP address.
+  
 <p>
 <br/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/0321dbac-a54b-4261-912c-ec0ba3693714)
+
+
+<p>
+<br/>
+  
+  - Go to the windows 10 VM in azure and select networking > DNS servers. Select custom, put in the domain controllers private address and save. 
+  
+</p>
+<br/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/1abdf40b-bc9c-47aa-9be1-6dd61ef6890e)
+
+
+</p>
+<br />
+
+- Line
+  
+<p>
+<br/>
+  
+Image
+
+<p>
+<br/>
+  
+- Line
+  
+</p>
+<br />
 
 Image
 
