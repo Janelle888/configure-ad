@@ -103,60 +103,44 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br/>
   
-  - Go to the windows 10 VM in azure and select networking > DNS servers. Select custom, put in the domain controllers private address and save. 
+  - Go to the windows 10 VM in azure and select networking > DNS servers. Select custom, put in the domain controllers private address and save. Restart your windows 10 VM.
   
 </p>
 <br/>
 
 ![image](https://github.com/Janelle888/configure-ad/assets/142438143/1abdf40b-bc9c-47aa-9be1-6dd61ef6890e)
 
-
 </p>
 <br />
 
-- Line
+- Log back into the windows 10 VM. Right click the start menu and select System > Rename this PC > Change > Domain. Here you will enter your domain name, Then log into the domain controller.
   
 <p>
 <br/>
   
-Image
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/9293204a-0179-403e-ab23-2e3bb16fa4e9)
 
 <p>
 <br/>
   
-- Line
-  
-</p>
-<br />
-
-Image
-
-<p>
-<br/>
-  
-  - Line
-  
-</p>
-<br/>
-
-Image
-
-</p>
-<br />
-
-- Line
-  
-<p>
-<br/>
-  
-Image
-
-<p>
-<br/>
-  
-- Line
+- Right click the start button go to System > Remote Desktop > Select users that can remotely access this PC. Add the group domain users so that users in the domain can remotely access the windows 10 VM.
   
 </p>
 <br />
 
-Image
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/4311249f-6d60-48b4-8ef3-02d31030a4fc)
+
+<p>
+<br/>
+  
+  - In your windows 10 VM click on start and search for PowerShell ISE right click and run as administrator. With this program we will create users for our domain. Open a new PowerShell file and paste the contents of the [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it. Run the script.
+  
+</p>
+<br/>
+
+![image](https://github.com/Janelle888/configure-ad/assets/142438143/086d2d74-0b60-4e2d-bb28-cb3e7e7974ed)
+
+</p>
+<br />
+
+- You are now able to explore the domain controller by using any of the accounts that we have created and loging in with their information
