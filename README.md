@@ -143,4 +143,4 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
-- You are now able to explore the domain controller by using any of the accounts that we have created and loging in with their information
+- You are now able to explore the domain controller by using any of the accounts that we have created and loging in with their information.
