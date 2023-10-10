@@ -22,7 +22,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Set up Resources
 - Install Active Directory
 - Set up Domain Controller
-- Join Windows 10 Virtual Machine to Domain Controller 
+- Join Windows 10 Virtual Machine to Domain Controller
+
+  - ### [YouTube: Video](https://www.youtube.com)
 
 <h2>Deployment and Configuration Steps</h2>
 
